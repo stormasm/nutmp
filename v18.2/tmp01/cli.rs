@@ -780,6 +780,7 @@ pub async fn cli(
             }
         }
         ctrlcbreak = false;
+        info!("BYE - Done {:?}",());
     }
     info!("--- LOOP BOT Ctrl-d --- {:?}",{});
     // we are ok if we can not save history
