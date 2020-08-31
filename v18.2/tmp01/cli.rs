@@ -781,7 +781,7 @@ pub async fn cli(
         }
         ctrlcbreak = false;
     }
-    info!("--- We will NEVER see this message --- {:?}",{});
+    info!("--- LOOP BOT Ctrl-d --- {:?}",{});
     // we are ok if we can not save history
     let _ = rl.save_history(&history_path);
 
