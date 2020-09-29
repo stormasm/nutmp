@@ -7,7 +7,13 @@ use log::*;
 fn main() -> Result<(), Box<dyn Error>> {
     let context = create_default_context(true)?;
 
-    Logger::with_env().start().unwrap();
+    //  Logger::with_env().start().unwrap();
+    Logger::with_env()
+        .log_to_file()
+        .directory("log_files")
+        .start()
+        .unwrap();
+
     error!("error log");
     warn!("warn log");
     info!("info log");
