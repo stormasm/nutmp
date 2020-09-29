@@ -1,5 +1,4 @@
 use clap::{App, Arg};
-use log::LevelFilter;
 use nu_cli::create_default_context;
 use nu_cli::utils::test_bins as binaries;
 use std::error::Error;
@@ -82,44 +81,6 @@ fn main() -> Result<(), Box<dyn Error>> {
 
         return Ok(());
     }
-
-    let loglevel = match matches.value_of("loglevel") {
-        None => LevelFilter::Warn,
-        Some("error") => LevelFilter::Error,
-        Some("warn") => LevelFilter::Warn,
-        Some("info") => LevelFilter::Info,
-        Some("debug") => LevelFilter::Debug,
-        Some("trace") => LevelFilter::Trace,
-        _ => unreachable!(),
-    };
-
-    let mut builder = pretty_env_logger::formatted_builder();
-
-    if let Ok(s) = std::env::var("RUST_LOG") {
-        builder.parse_filters(&s);
-    }
-
-    builder.filter_module("nu", loglevel);
-
-    match matches.values_of("develop") {
-        None => {}
-        Some(values) => {
-            for item in values {
-                builder.filter_module(&format!("nu::{}", item), LevelFilter::Trace);
-            }
-        }
-    }
-
-    match matches.values_of("debug") {
-        None => {}
-        Some(values) => {
-            for item in values {
-                builder.filter_module(&format!("nu::{}", item), LevelFilter::Debug);
-            }
-        }
-    }
-
-    builder.try_init()?;
 
     match matches.values_of("commands") {
         None => {}
