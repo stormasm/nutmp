@@ -1,0 +1,15 @@
+processor : 0
+vendor_id : AuthenticAMD
+cpu family : 23
+model : 123
+
+processor : 1
+vendor_id : Intel
+cpu family : 24
+model : 124
+
+processor : 2
+vendor_id : Nvidia
+cpu family : 25
+model : 125
+
