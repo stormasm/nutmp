@@ -21,6 +21,9 @@ savings that the problem starts appearing.
 When I reintroduced this line of code back in, all of my tests
 started passing again...
 
+It appears that the race condition is possibly associated with creating the
+default context ?
+
 Here is the
 [modified main.rs](https://github.com/stormasm/nushelltmp/blob/master/v21.0/tmp00/main.rs)
 code which makes all of my tests pass again.
