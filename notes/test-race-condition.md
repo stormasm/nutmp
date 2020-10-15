@@ -28,6 +28,9 @@ Here is the
 [modified main.rs](https://github.com/stormasm/nushelltmp/blob/master/v21.0/tmp00/main.rs)
 code which makes all of my tests pass again.
 
+This modified main.rs code is changed after this
+[commit](https://github.com/nushell/nushell/commit/a2cc2259e71ace3b2d808cb395da1b8fe4336020)
+
 ### References
 
 [surrounding commits during that August 8, 2020 time period](https://github.com/nushell/nushell/commits/main?before=a2cc2259e71ace3b2d808cb395da1b8fe4336020+245&branch=main)
