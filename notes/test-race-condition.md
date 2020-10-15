@@ -2,7 +2,7 @@
 A commit made on August 8, 2020 started causing many of my tests
 to start failing...
 
-[Allow disabling welcome message on launch (#2314)]()
+[Allow disabling welcome message on launch (#2314)](https://github.com/nushell/nushell/commit/f14c0df582399f5baffdd93c92b365f4f3b87a9a)
 is where the bug / race condition started showing up for me...
 
 It took me a long while to chase down why my tests were failing
