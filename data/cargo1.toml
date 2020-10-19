@@ -1,0 +1,53 @@
+[package]
+authors = ["The Nu Project Contributors"]
+default-run = "nu"
+description = "A new type of shell"
+documentation = "https://www.nushell.sh/book/"
+edition = "2018"
+exclude = ["images"]
+homepage = "https://www.nushell.sh"
+license = "MIT"
+name = "nu"
+readme = "README.md"
+repository = "https://github.com/nushell/nushell"
+version = "0.21.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nu-cli = {version = "0.21.0", path = "./crates/nu-cli"}
+nu-data = {version = "0.21.0", path = "./crates/nu-data"}
+
+[dev-dependencies]
+dunce = "1.0.1"
+nu-test-support = {version = "0.21.0", path = "./crates/nu-test-support"}
+
+[features]
+ctrlc-support = ["nu-cli/ctrlc"]
+directories-support = ["nu-cli/directories", "nu-cli/dirs", "nu-data/directories", "nu-data/dirs"]
+
+default = [
+  "sys",
+  "ps",
+  "textview",
+]
+
+extra = ["default", "binaryview", "tree", "clipboard-cli", "trash-support", "start", "bson", "sqlite", "s3", "chart", "xpath"]
+stable = ["default"]
+
+# Stable (Default)
+fetch = ["nu_plugin_fetch"]
+inc = ["nu_plugin_inc"]
+
+# Core plugins that ship with `cargo install nu` by default
+# Currently, Cargo limits us to installing only one binary
+# unless we use [[bin]], so we use this as a workaround
+[[bin]]
+name = "nu_plugin_core_textview"
+path = "src/plugins/nu_plugin_core_textview.rs"
+required-features = ["textview"]
+
+[[bin]]
+name = "nu_plugin_core_inc"
+path = "src/plugins/nu_plugin_core_inc.rs"
+required-features = ["inc"]
