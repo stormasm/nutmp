@@ -13,7 +13,12 @@ def show_index_colors [] {
 #show_index_colors
 
 def show_simple_1 [] {
+  echo 0..3 | each {echo [$(ansi -e '38;5;') $(build-string $it) 'm' $(build-string $it) ' ']}
+}
+
+def show_simple_2 [] {
   echo 0..3 | each {echo [$(ansi -e '38;5;') $(build-string $it) 'm' $(build-string $it) ' ']} | str collect
 }
 
-show_simple_1  
+show_simple_1
+show_simple_2
