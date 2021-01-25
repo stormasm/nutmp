@@ -20,7 +20,7 @@ def t3 [dir] {
   }
 }
 
-### This is broken
+### This is broken simply by adding the 2nd set of parens down one line
 
 #def t4 [dir] {
 #  if $dir == crates {
