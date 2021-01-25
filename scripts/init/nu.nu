@@ -22,7 +22,7 @@ alias nu28 = 'nutop28; ./target/debug/nu'
 #
 
 alias nutop = cd /j/tmp26/nushell
-alias nutmp = 'cd /j/tmp26/nutmp'
+alias nutmp = cd /j/tmp26/nutmp
 
 alias nurunn = './target/debug/nu'
 
@@ -69,5 +69,7 @@ alias ntcom = 'cargo test --package nu-cli --test main -- '
 
 # Nushell Scripts
 alias nusd = 'nutop; cd ..; cd nushell_scripts'
-alias nus = 'nutop; cd ..; cd nutmp/scripts'
+alias nus = cd /j/tmp26/nutmp/scripts
+alias nusi = cd /j/tmp26/nutmp/scripts/init
+#alias nus = 'nutop; cd ..; cd nutmp/scripts'
 alias nusn = 'nutop; cd ..; cd nu_scripts'
