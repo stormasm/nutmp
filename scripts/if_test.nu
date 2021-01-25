@@ -10,7 +10,19 @@ def t2 [dir] {
   if $dir == crates {echo 'got crates'} {echo 'got something else'}
 }
 
-#def t3 [dir] {
+### This works too
+
+def t3 [dir] {
+  if $dir == crates {
+    echo 'got crates'
+  } {
+    echo 'got something else'
+  }
+}
+
+### This is broken
+
+#def t4 [dir] {
 #  if $dir == crates {
 #    echo 'got crates'
 #  }
