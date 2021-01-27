@@ -2,13 +2,13 @@ source ../ansi_ctrl.nu
 
 # BROKEN case one of first parens by itself
 #
-#def echo_broken_case1 [arg]
+#def paren_broken_case1 [arg]
 #{
 #echo $arg }
 
 # BROKEN case two of both parens by themselves
 #
-#def echo_broken_case2 [arg]
+#def paren_broken_case2 [arg]
 #{
 #echo $arg
 #}
