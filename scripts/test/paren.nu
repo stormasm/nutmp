@@ -1,32 +1,38 @@
 source ../ansi_ctrl.nu
 
-# The case of parens on their own lines is broken
+# BROKEN case one of first parens by itself
 #
-#def my_echo_broken [arg]
+#def echo_broken_case1 [arg]
+#{
+#echo $arg }
+
+# BROKEN case two of both parens by themselves
+#
+#def echo_broken_case2 [arg]
 #{
 #echo $arg
 #}
 
-def my_echo1 [arg] { echo $arg }
+def echo1 [arg] { echo $arg }
 
-def my_echo2 [arg] {
+def echo2 [arg] {
 echo $arg }
 
-def my_echo3 [arg] {
+def echo3 [arg] {
 echo $arg
 }
 
-def my_echo4 [--bar(-b): int] {
+def echo4 [--bar(-b): int] {
     echo $bar
 }
 
-my_echo1 'hi one'
+echo1 'hi one'
 skip1
-my_echo2 'hi two'
+echo2 'hi two'
 skip1
-my_echo3 (hi three)
+echo3 (hi three)
 skip1
-my_echo4 -b 10
+echo4 -b 10
 skip1
-my_echo4 --bar 10
+echo4 --bar 10
 skip1
