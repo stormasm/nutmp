@@ -68,8 +68,10 @@ alias cpar = 'cp parse.rs /j/tmp25/nushelltmp/v19.0/tmp00; cd /j/tmp25/nushelltm
 #alias ntcom = 'cargo test --package nu-cli --test main -- '
 
 # Nushell Scripts
-#alias nusd = 'nutop; cd ..; cd nushell_scripts'
-alias nus = cd /j/tmp26/nutmp/scripts
+
+alias nus  = cd /j/tmp26/nutmp/scripts
 alias nusi = cd /j/tmp26/nutmp/scripts/init
-#alias nus = 'nutop; cd ..; cd nutmp/scripts'
+alias nust = cd /j/tmp26/nutmp/scripts/test
+
+alias nusd = cd /j/tmp26/nushell_scripts
 alias nusn = cd /j/tmp26/nu_scripts
