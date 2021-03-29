@@ -10,6 +10,7 @@ alias gl = git log
 alias gls = git log --stat
 
 alias gp = git pull
+alias gpnu = git pull https://github.com/nushell/nushell main
 alias gpo = git push origin
 alias grso = git remote show origin
 
