@@ -8,6 +8,8 @@ layout: topic-layout.njk
 
 ## Overview
 
+[link to blog](https://mvolkmann.github.io/blog/topics/#/blog/nushell)
+
 {% aTargetBlank "https://www.nushell.sh", "Nushell" %} is "a new type of shell".
 "The goal of this project is to take the Unix philosophy of shells,
 where pipes connect simple commands together,
