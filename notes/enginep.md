@@ -27,3 +27,13 @@ In concert with
 Here are the steps needed to port a command over to engine-p.
 
 I will go over one example with a tutorial.
+
+#### List of Commands that have not yet been ported
+
+* default.rs
+* do_.rs
+* first.rs
+* kill.rs
+* prepend.rs
+* split_by.rs
+* touch.rs
