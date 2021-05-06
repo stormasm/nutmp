@@ -16,3 +16,14 @@ and lead you to another way to show a command has not been ported.
 ```
 args.process()?;
 ```
+
+If you see the above line of code anywhere in a command file its a
+candidate for re-factoring to engine-p style coding...
+
+In concert with
+[andrasio's](https://github.com/andrasio) document called
+[Implementing a Command (in Nushell)](https://github.com/nushell/nushell/blob/main/docs/implementing_a_command.md)...
+
+Here are the steps needed to port a command over to engine-p.
+
+I will go over one example with a tutorial.
