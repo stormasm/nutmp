@@ -8,7 +8,7 @@ echo [[a b]; [rick paul] [bill pete]] | pls convert | pls show
 ### How to compile
 
 ```
-cargo build --no-default-features --features=rustyline-support --features=dataframe'
-cargo build --features=dataframe'
+cargo build --no-default-features --features=rustyline-support --features=dataframe
+cargo build --features=dataframe
 cargo install --path . --install --features=extra,dataframe
 ```
