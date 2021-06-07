@@ -1,11 +1,28 @@
 
-let df1 = (pls load iwv.csv)   
-let df2 = (echo [[a b]; [1 2] [3 4]] | pls convert)   
+```rust
+let df1 = (open top.csv | pls to-df)
+let df2 = (pls load top.csv)
+let df3 = (echo [[a b]; [1 2] [3 4]] | pls to-df)  
 
-echo [[a b]; [rick paul] [bill pete]] | pls convert | pls show   
+open worldcities.csv | range 6992..6996 | pls to-df
 
+[jim pete paul] | pls to-series people
+```
 
 ### How to compile
+
+[Cargolite-df.toml](https://github.com/stormasm/nutmp/blob/master/cargo/Cargolite-df.toml)
+
+##### More details...
+
+```
+default = [
+    "directories-support",
+    "ctrlc-support",
+    "rustyline-support",
+    "dataframe",
+]
+```
 
 ```
 cargo build --no-default-features --features=rustyline-support --features=dataframe
