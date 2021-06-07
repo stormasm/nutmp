@@ -1,4 +1,6 @@
 
+[Data files are located here](https://github.com/stormasm/nudata/tree/main/csv)
+
 ```rust
 let df1 = (open top.csv | pls to-df)
 let df2 = (pls load top.csv)
