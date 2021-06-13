@@ -1,5 +1,5 @@
 
-**vectors** can only store values of the same type.
+*vectors* can only store values of the same type.
 
 series is a one dimensional array capable of holding any data type.
 
