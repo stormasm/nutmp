@@ -5,6 +5,6 @@
 
 *dataframe* is two dimensional with columns of potentially different types.
 
-*groupBy* is simply picking all the rows where a particular column has some value.  see SQL groupby
+*groupBy* is simply picking all the rows where a particular column has some value.  [see SQL groupby](https://www.w3schools.com/sql/sql_groupby.asp)
 
 *tuple* rust book section 3.2, can have different types unlike a vector.
