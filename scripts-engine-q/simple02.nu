@@ -1,13 +1,8 @@
-let $x = 10; def foo [] { $x };
-#if foo = 10
-foo
+let x = 10; def foo [] { $x };
+let z = 11;
+if (foo) == 10 { $z + 12 }
+$z
 
-#[test]
-#fn predecl_check() -> TestResult {
-#run_test("def bob [] { sam }; def sam [] { 3 }; bob", "3")
-#}
+def bob [] { sam }; def sam [] { 3 + $z }; bob
 
-#[test]
-#fn def_with_no_dollar() -> TestResult {
-#run_test("def bob [x] { $x + 3 }; bob 4", "7")
-#}
+def rick [x] { $x + 3 }; rick 4
