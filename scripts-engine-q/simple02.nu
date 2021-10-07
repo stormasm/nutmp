@@ -6,3 +6,7 @@ $z
 def bob [] { sam }; def sam [] { 3 + $z }; bob
 
 def rick [x] { $x + 3 }; rick 4
+
+def pete [] { rick 20 }
+
+pete
