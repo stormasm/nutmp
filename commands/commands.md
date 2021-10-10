@@ -10,15 +10,15 @@
 |benchmark|system|done|
 |build-string|strings|done|
 |cal|Display a calendar.||
-|cd|filesystem||
-|char|Output special characters (e.g., &#x27;newline&#x27;).||
-|chart|Displays charts.||
-|clear|Clears the terminal.||
-|collect|Collect the stream and pass it to a block.||
-|compact|Creates a table with non-empty rows.||
-|config|Configuration management.||
-|cp|Copy files.||
-|dataframe|Commands to work with polars dataframes||
+|cd|filesystem|done|
+|char|||
+|chart|||
+|clear|||
+|collect|||
+|compact|||
+|config|||
+|cp|filesystem|done|
+|dataframe|||
 |date|Apply date function.||
 |debug|Print the Rust debug representation of the values.||
 |def|core|done|
@@ -61,12 +61,12 @@
 |let-env|Create an environment variable and give it a value.||
 |lines|Split single string into rows, one per line.||
 |load-env|Set environment variables using a table stream||
-|ls|View the contents of the current or given path.||
+|ls|filesystem|done|
 |math|Use mathematical functions as aggregate functions on a list of numbers or tables.||
 |merge|Merge a table.||
-|mkdir|Make directories, creates intermediary directories as required.||
+|mkdir||done|
 |move|Move columns.||
-|mv|Move files or directories.||
+|mv|filesystem|done|
 |n|Go to next shell.||
 |nth|Return or skip only the selected rows.||
 |open|Load a file into a cell, convert to table if possible (avoid by appending &#x27;--raw&#x27;).||
