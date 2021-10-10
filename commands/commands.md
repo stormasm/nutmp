@@ -19,51 +19,51 @@
 |config|||
 |cp|filesystem|done|
 |dataframe|||
-|date|Apply date function.||
-|debug|Print the Rust debug representation of the values.||
+|date|||
+|debug|||
 |def|core|done|
-|default|Sets a default row&#x27;s column if missing.||
-|describe|Describes the objects in the stream.||
+|default|||
+|describe|||
 |do|core|done|
-|drop|Remove the last number of rows or columns.||
-|du|Find disk usage sizes of specified items.||
+|drop|||
+|du|||
 |each|filters|done|
-|echo|Echo the arguments back to the user.||
-|empty?|Check for empty values.||
-|enter|Create a new shell and begin at this path.||
-|every|Show (or skip) every n-th row, starting from the first one.||
-|exec|Execute a command, replacing the current process.||
-|exit|Exit the current shell (or all shells).||
-|fetch|Fetch the contents from a URL (HTTP GET operation).||
-|find|Find text in the output of a previous command||
-|first|Show only the first number of rows.||
-|flatten|Flatten the table.||
+|echo|||
+|empty?|||
+|enter|||
+|every|||
+|exec|||
+|exit|||
+|fetch|||
+|find|||
+|first|||
+|flatten|||
 |for|core|done|
-|format|Format columns into a string using a simple pattern.||
+|format|||
 |from|formats||
-|g|Go to specified shell.||
+|g|||
 |get|filters|done|
-|group-by|Create a new table grouped.||
-|hash|Apply hash function.||
-|headers|Use the first row of the table as column names.||
+|group-by|||
+|hash|||
+|headers|||
 |help|core|done|
-|histogram|Creates a new table with a histogram based on the column name passed in.||
-|history|Display command history.||
+|histogram|||
+|history|||
 |if|core|done|
-|ignore|Ignore the output of the previous command in the pipeline||
-|insert|Insert a new column with a given value.||
-|into|Apply into function.||
-|keep|Keep the number of rows only.||
-|kill|Kill a process using the process id.||
-|last|Show only the last number of rows.||
+|ignore|||
+|insert|||
+|into|||
+|keep|||
+|kill|||
+|last|||
 |length|filters|done|
 |let|core|done|
-|let-env|Create an environment variable and give it a value.||
+|let-env|||
 |lines|filters|done|
-|load-env|Set environment variables using a table stream||
+|load-env|||
 |ls|filesystem|done|
-|math|Use mathematical functions as aggregate functions on a list of numbers or tables.||
-|merge|Merge a table.||
+|math|||
+|merge|||
 |mkdir|filesystem|done|
 |move|||
 |mv|filesystem|done|
@@ -106,7 +106,7 @@
 |to|||
 |touch|filesystem|done|
 |tutor|||
-|unalias|Removes an alias||
+|unalias|||
 |uniq|||
 |unlet-env|||
 |update|||
