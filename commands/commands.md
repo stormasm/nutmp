@@ -39,7 +39,7 @@
 |first|Show only the first number of rows.||
 |flatten|Flatten the table.||
 |for|Run a block on each row of the table.||
-|format|Format columns into a string using a simple pattern.|[table 1 rows]|
+|format|Format columns into a string using a simple pattern.||
 |from|Parse content (string or binary) as a table (input format based on subcommand, like csv, ini, json, toml).||
 |g|Go to specified shell.||
 |get|Open given cells as text.||
@@ -91,7 +91,7 @@ same rules.||
 |rotate|Rotates the table by 90 degrees clockwise.||
 |save|Save the contents of the pipeline to a file.||
 |select|Down-select table to only these columns.||
-|seq|Print sequences of numbers.|[table 1 rows]|
+|seq|Print sequences of numbers.||
 |shells|Display the list of current shells.||
 |shuffle|Shuffle rows randomly.||
 |size|Gather word count statistics on the text.||
