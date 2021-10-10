@@ -50,7 +50,7 @@
 |group-by||||
 |hash||||
 |headers||||
-|help|core|done||
+|help|core||WIP|
 |histogram||||
 |history||||
 |if|core|done||
