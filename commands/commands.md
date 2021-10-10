@@ -64,58 +64,56 @@
 |ls|filesystem|done|
 |math|Use mathematical functions as aggregate functions on a list of numbers or tables.||
 |merge|Merge a table.||
-|mkdir||done|
-|move|Move columns.||
+|mkdir|filesystem|done|
+|move|||
 |mv|filesystem|done|
-|n|Go to next shell.||
-|nth|Return or skip only the selected rows.||
-|open|Load a file into a cell, convert to table if possible (avoid by appending &#x27;--raw&#x27;).||
-|p|Go to previous shell.||
-|parse|Parse columns from string data using a simple pattern.||
-|path|Explore and manipulate paths.||
-|pathvar|Manipulate the PATH variable (pathvar) or a different variable following the
-same rules.||
-|pivot|Pivots the table contents so rows become columns and columns become rows.||
-|post|Post a body to a URL (HTTP POST operation).||
-|prepend|Prepend the given row to the front of the table.||
-|ps|View information about system processes.||
-|pwd|Output the current working directory.||
-|random|Generate random values.||
-|range|Return only the selected rows.||
-|reduce|Aggregate a list table to a single value using an accumulator block.||
-|reject|Remove the given columns from the table. If you want to remove rows, try &#x27;drop&#x27;.||
-|rename|Creates a new table with columns renamed.||
-|reverse|Reverses the table.||
-|rm|Remove file(s).||
-|roll|Rolls the table rows.||
-|rotate|Rotates the table by 90 degrees clockwise.||
-|save|Save the contents of the pipeline to a file.||
+|n|||
+|nth|||
+|open|||
+|p|||
+|parse|||
+|path|||
+|pathvar|||
+|pivot|||
+|post|||
+|prepend|||
+|ps|||
+|pwd|||
+|random|||
+|range|||
+|reduce|||
+|reject|||
+|rename|||
+|rm||done|
+|roll|||
+|rotate|||
+|save|||
 |select|filters|done|
-|seq|Print sequences of numbers.||
-|shells|Display the list of current shells.||
-|shuffle|Shuffle rows randomly.||
-|size|Gather word count statistics on the text.||
-|skip|Skip some number of rows.||
-|sleep|Delay for a specified amount of time.||
-|sort-by|Sort by the given columns, in increasing order.||
-|source|Runs a script file in the current context.||
-|split|Split contents across desired subcommand (like row, column) via the separator.||
-|split-by|Creates a new table with the data from the inner tables split by the column given.||
-|str|Apply string function.||
+|seq|||
+|shells|||
+|shuffle|||
+|size|||
+|skip|||
+|sleep|||
+|sort-by|||
+|source|||
+|split|||
+|split-by|||
+|str|||
 |sys|system|done|
 |table|viewers|done|
-|tags|Read the tags (metadata) for values.||
-|to|Convert table into an output format (based on subcommand, like csv, html, json, yaml).||
+|tags|||
+|to|||
 |touch|filesystem|done|
-|tutor|Run the tutorial. To begin, run: tutor||
+|tutor|||
 |unalias|Removes an alias||
-|uniq|Return the unique rows.||
-|unlet-env|Delete an environment variable.||
-|update|Update an existing column to have a new value.||
-|url|Apply url function.||
-|version|Display Nu version.||
+|uniq|||
+|unlet-env|||
+|update|||
+|url|||
+|version|||
 |where|filters|done|
-|which|Finds a program file, alias or custom command.||
-|with-env|Runs a block with an environment variable set.||
+|which|||
+|with-env|||
 |wrap|filters|done|
-|zip|Zip two tables.||
+|zip|||
