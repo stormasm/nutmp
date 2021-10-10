@@ -9,7 +9,7 @@
 |autoview|||
 |benchmark|system|done|
 |build-string|strings|done|
-|cal|Display a calendar.||
+|cal|||
 |cd|filesystem|done|
 |char|||
 |chart|||
@@ -27,7 +27,7 @@
 |do|core|done|
 |drop|Remove the last number of rows or columns.||
 |du|Find disk usage sizes of specified items.||
-|each|Run a block on each row of the table.||
+|each|filters|done|
 |echo|Echo the arguments back to the user.||
 |empty?|Check for empty values.||
 |enter|Create a new shell and begin at this path.||
@@ -42,7 +42,7 @@
 |format|Format columns into a string using a simple pattern.||
 |from|Parse content (string or binary) as a table (input format based on subcommand, like csv, ini, json, toml).||
 |g|Go to specified shell.||
-|get|Open given cells as text.||
+|get|filters|done|
 |group-by|Create a new table grouped.||
 |hash|Apply hash function.||
 |headers|Use the first row of the table as column names.||
@@ -56,10 +56,10 @@
 |keep|Keep the number of rows only.||
 |kill|Kill a process using the process id.||
 |last|Show only the last number of rows.||
-|length|Show the total number of rows or items.||
+|length|filters|done|
 |let|core|done|
 |let-env|Create an environment variable and give it a value.||
-|lines|Split single string into rows, one per line.||
+|lines|filters|done|
 |load-env|Set environment variables using a table stream||
 |ls|filesystem|done|
 |math|Use mathematical functions as aggregate functions on a list of numbers or tables.||
@@ -90,7 +90,7 @@ same rules.||
 |roll|Rolls the table rows.||
 |rotate|Rotates the table by 90 degrees clockwise.||
 |save|Save the contents of the pipeline to a file.||
-|select|Down-select table to only these columns.||
+|select|filters|done|
 |seq|Print sequences of numbers.||
 |shells|Display the list of current shells.||
 |shuffle|Shuffle rows randomly.||
@@ -106,7 +106,7 @@ same rules.||
 |table|View the contents of the pipeline as a table.||
 |tags|Read the tags (metadata) for values.||
 |to|Convert table into an output format (based on subcommand, like csv, html, json, yaml).||
-|touch|Creates one or more files.||
+|touch|filesystem|done|
 |tutor|Run the tutorial. To begin, run: tutor||
 |unalias|Removes an alias||
 |uniq|Return the unique rows.||
@@ -114,8 +114,8 @@ same rules.||
 |update|Update an existing column to have a new value.||
 |url|Apply url function.||
 |version|Display Nu version.||
-|where|Filter table to match the condition.||
+|where|filters|done|
 |which|Finds a program file, alias or custom command.||
 |with-env|Runs a block with an environment variable set.||
-|wrap|Wraps the given data in a table.||
+|wrap|filters|done|
 |zip|Zip two tables.||
