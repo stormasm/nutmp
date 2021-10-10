@@ -1,4 +1,4 @@
-|name|status|extra|
+|name|category|status|
 |-|-|-|
 |alias|core|done|
 |all?|||
