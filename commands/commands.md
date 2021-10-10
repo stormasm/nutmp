@@ -11,7 +11,7 @@
 |build-string|strings|done|
 |cal|||
 |cd|filesystem|done|
-|char|||
+|char|split|done|
 |chart|||
 |clear|||
 |collect|||
@@ -40,7 +40,7 @@
 |flatten|Flatten the table.||
 |for|core|done|
 |format|Format columns into a string using a simple pattern.||
-|from|Parse content (string or binary) as a table (input format based on subcommand, like csv, ini, json, toml).||
+|from|formats||
 |g|Go to specified shell.||
 |get|filters|done|
 |group-by|Create a new table grouped.||
@@ -102,8 +102,8 @@ same rules.||
 |split|Split contents across desired subcommand (like row, column) via the separator.||
 |split-by|Creates a new table with the data from the inner tables split by the column given.||
 |str|Apply string function.||
-|sys|View information about the system.||
-|table|View the contents of the pipeline as a table.||
+|sys|system|done|
+|table|viewers|done|
 |tags|Read the tags (metadata) for values.||
 |to|Convert table into an output format (based on subcommand, like csv, html, json, yaml).||
 |touch|filesystem|done|
