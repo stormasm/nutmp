@@ -16,7 +16,7 @@
 |clear|Clears the terminal.||
 |collect|Collect the stream and pass it to a block.||
 |compact|Creates a table with non-empty rows.||
-|config|Configuration management.|[table 6 rows]|
+|config|Configuration management.||
 |cp|Copy files.||
 |dataframe|Commands to work with polars dataframes||
 |date|Apply date function.||
@@ -52,7 +52,7 @@
 |if|Run blocks if a condition is true or false.||
 |ignore|Ignore the output of the previous command in the pipeline||
 |insert|Insert a new column with a given value.||
-|into|Apply into function.|[table 6 rows]|
+|into|Apply into function.||
 |keep|Keep the number of rows only.||
 |kill|Kill a process using the process id.||
 |last|Show only the last number of rows.||
