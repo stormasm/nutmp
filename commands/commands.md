@@ -1,16 +1,16 @@
-|name|description|subcommands|
+|name|status|extra|
 |-|-|-|
-|alias|Alias a command to an expansion.||
-|all?|Find if the table rows matches the condition.||
-|ansi|Output ANSI codes to change color.||
-|any?|Find if the table rows matches the condition.||
-|append|Append a row to the table.||
-|autoenv|Manage directory specific environment variables and scripts.||
-|autoview|View the contents of the pipeline as a table or list.||
-|benchmark|Runs a block and returns the time it took to execute it.||
-|build-string|Builds a string from the arguments.||
+|alias|core|done|
+|all?|||
+|ansi|||
+|any?|||
+|append|||
+|autoenv|||
+|autoview|||
+|benchmark|system|done|
+|build-string|strings|done|
 |cal|Display a calendar.||
-|cd|Change to a new path.||
+|cd|filesystem||
 |char|Output special characters (e.g., &#x27;newline&#x27;).||
 |chart|Displays charts.||
 |clear|Clears the terminal.||
@@ -21,10 +21,10 @@
 |dataframe|Commands to work with polars dataframes||
 |date|Apply date function.||
 |debug|Print the Rust debug representation of the values.||
-|def|Create a command and set it to a definition.||
+|def|core|done|
 |default|Sets a default row&#x27;s column if missing.||
 |describe|Describes the objects in the stream.||
-|do|Runs a block, optionally ignoring errors.||
+|do|core|done|
 |drop|Remove the last number of rows or columns.||
 |du|Find disk usage sizes of specified items.||
 |each|Run a block on each row of the table.||
@@ -38,7 +38,7 @@
 |find|Find text in the output of a previous command||
 |first|Show only the first number of rows.||
 |flatten|Flatten the table.||
-|for|Run a block on each row of the table.||
+|for|core|done|
 |format|Format columns into a string using a simple pattern.||
 |from|Parse content (string or binary) as a table (input format based on subcommand, like csv, ini, json, toml).||
 |g|Go to specified shell.||
@@ -46,10 +46,10 @@
 |group-by|Create a new table grouped.||
 |hash|Apply hash function.||
 |headers|Use the first row of the table as column names.||
-|help|Display help information about commands.||
+|help|core|done|
 |histogram|Creates a new table with a histogram based on the column name passed in.||
 |history|Display command history.||
-|if|Run blocks if a condition is true or false.||
+|if|core|done|
 |ignore|Ignore the output of the previous command in the pipeline||
 |insert|Insert a new column with a given value.||
 |into|Apply into function.||
@@ -57,7 +57,7 @@
 |kill|Kill a process using the process id.||
 |last|Show only the last number of rows.||
 |length|Show the total number of rows or items.||
-|let|Create a variable and give it a value.||
+|let|core|done|
 |let-env|Create an environment variable and give it a value.||
 |lines|Split single string into rows, one per line.||
 |load-env|Set environment variables using a table stream||
