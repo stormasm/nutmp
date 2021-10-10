@@ -1,3 +1,7 @@
+
+* done means feature complete and tested
+* WIP means work in progress
+
 |name|category|completed|status|
 |-|-|-|-|
 |alias|core|done||
