@@ -56,7 +56,7 @@
 |if|core|done||
 |ignore||||
 |insert||||
-|into||||
+|into|||Partially Done|
 |keep||||
 |kill||||
 |last||||
