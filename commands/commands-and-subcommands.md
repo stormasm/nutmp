@@ -41,7 +41,7 @@
 |flatten|||||
 |for||core|done||
 |format|||||
-|from|formats||||
+|from||formats|||
 |g|||||
 |get||filters|done||
 |group-by|||||
