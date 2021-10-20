@@ -93,7 +93,13 @@
 |if||core|done||
 |ignore|||||
 |insert|||||
-|into||||Partially Done, still needs `into string`|
+|into||conversions||Partially Done, still needs `into string`|
+|into|binary||||
+|into|column_path||||
+|into|filesize||||
+|into|int||||
+|into|path||||
+|into|string||||
 |keep|||||
 |kill|||||
 |last|||||
