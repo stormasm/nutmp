@@ -94,13 +94,14 @@
 |ignore|||||
 |insert|||||
 |into||conversions||Partially Done, still needs `into string`|
-|into|binary||||
-|into|column_path||||
-|into|filesize||||
-|into|int||||
-|into|path||||
-|into|string||||
-|keep|||||
+|into|binary|conversions|||
+|into|column_path|conversions|||
+|into|filesize|conversions|||
+|into|int|conversions|||
+|into|path|conversions|||
+|into|string|conversions|||
+|keep|until||||
+|keep|while||||
 |kill|||||
 |last|||||
 |length||filters|done||
