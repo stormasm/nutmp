@@ -22,6 +22,12 @@
 |collect|||||
 |compact|||||
 |config|||||
+|config|clear||||
+|config|get||||
+|config|path||||
+|config|remove||||
+|config|set||||
+|config|set_into||||
 |cp||filesystem|done||
 |dataframe|||||
 |date|||||
