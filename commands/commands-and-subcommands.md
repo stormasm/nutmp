@@ -61,6 +61,7 @@
 |flatten|||||
 |for||core|done||
 |format|||||
+|format|filesize||||
 |from||formats|||
 |g|||||
 |get||filters|done||
