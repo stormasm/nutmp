@@ -81,7 +81,11 @@
 |g|||||
 |get||filters|done||
 |group-by|||||
+|group-by|date||||
 |hash|||||
+|hash|base64||||
+|hash|md5||||
+|hash|sha256||||
 |headers|||||
 |help||core||Still needs syntax highlighting|
 |histogram|||||
