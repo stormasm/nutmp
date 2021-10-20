@@ -121,6 +121,15 @@
 |p|||||
 |parse|||||
 |path|||||
+|path|basename||||
+|path|dirname||||
+|path|exists||||
+|path|expand||||
+|path|join||||
+|path|parse||||
+|path|relative||||
+|path|split||||
+|path|type||||
 |pathvar|||||
 |pivot|||||
 |post|||||
