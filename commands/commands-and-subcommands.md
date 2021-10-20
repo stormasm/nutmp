@@ -4,6 +4,8 @@
 |alias||core|done||
 |all?|||||
 |ansi|||||
+|ansi|gradient||||
+|ansi|strip||||
 |any?|||||
 |append|||||
 |autoenv|||||
