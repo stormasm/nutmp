@@ -171,6 +171,9 @@
 |sort-by|||||
 |source|||||
 |split|||||
+|split|chars||||
+|split|column||||
+|split|row||||
 |split-by|||||
 |str|||||
 |sys||system|done||
@@ -183,7 +186,12 @@
 |uniq|||||
 |unlet-env|||||
 |update|||||
+|update|cells||||
 |url|||||
+|url|host||||
+|url|path||||
+|url|query||||
+|url|scheme||||
 |version|||||
 |where||filters|done||
 |which|||||
