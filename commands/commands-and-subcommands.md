@@ -31,6 +31,12 @@
 |cp||filesystem|done||
 |dataframe|||||
 |date|||||
+|date|format||||
+|date|humanize||||
+|date|list-timezone||||
+|date|now||||
+|date|to-table||||
+|date|to-timezone||||
 |debug|||||
 |def||core|done||
 |default|||||
