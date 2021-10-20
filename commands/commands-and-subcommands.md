@@ -180,6 +180,15 @@
 |table||viewers||Needs to have config added|
 |tags|||||
 |to|||||
+|to|csv||||
+|to|html||||
+|to|json||||
+|to|md||||
+|to|toml||||
+|to|tsv||||
+|to|url||||
+|to|xml||||
+|to|yaml||||
 |touch||filesystem|done||
 |tutor|||||
 |unalias|||||
