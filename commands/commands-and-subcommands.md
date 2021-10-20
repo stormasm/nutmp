@@ -9,6 +9,8 @@
 |any?|||||
 |append|||||
 |autoenv|||||
+|autoenv|trust||||
+|autoenv|untrust||||
 |autoview|||||
 |benchmark||system|done||
 |build-string||strings|done||
