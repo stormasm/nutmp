@@ -47,6 +47,8 @@
 |drop|nth||||
 |du|||||
 |each||filters|done||
+|each|group|filters|done ?, please chk||
+|each|window|filters|done ?, please chk||
 |echo|||||
 |empty?|||||
 |enter|||||
