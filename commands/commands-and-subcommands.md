@@ -43,6 +43,8 @@
 |describe|||||
 |do||core|done||
 |drop|||||
+|drop|column||||
+|drop|nth||||
 |du|||||
 |each||filters|done||
 |echo|||||
