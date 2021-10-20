@@ -111,6 +111,21 @@
 |load-env|||||
 |ls||filesystem||Needs to have all flags ported over|
 |math|||||
+|math|abs||||
+|math|avg||||
+|math|ceil||||
+|math|eval||||
+|math|floor||||
+|math|max||||
+|math|median||||
+|math|min||||
+|math|mode||||
+|math|product||||
+|math|round||||
+|math|sqrt||||
+|math|stddev||||
+|math|sum||||
+|math|variance||||
 |merge|||||
 |mkdir||filesystem|done||
 |move|||||
