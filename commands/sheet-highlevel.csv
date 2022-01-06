@@ -25,7 +25,7 @@ find
 
 format filesize
 
-#### from sqlite
+from sqlite
 
 get
 
