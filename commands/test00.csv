@@ -1,98 +1,98 @@
 
-#### autoenv
+autoenv
 
-#### benchmark
+benchmark
 
-#### chart
+chart
 
-#### compact
+compact
 
-#### default
+default
 
-#### detect
+detect
 
-#### du
+du
 
-#### each
+each
 
-#### empty?
+empty?
 
-#### enter
+enter
 
-#### exec
+exec
 
-#### find
+find
 
-#### format filesize
+format filesize
 
 #### from sqlite
 
-#### get
+get
 
-#### group-by
+group-by
 
-#### hash
+hash
 
-#### histogram
+histogram
 
-#### inc
+inc
 
-#### insert
+insert
 
-#### into column path-path
+into column path-path
 
-#### load-env
+load-env
 
-#### ls
+ls
 
-#### match
+match
 
-#### merge
+merge
 
-#### move
+move
 
-#### nu plugin
+nu plugin
 
-#### pivot
+pivot
 
-#### post
+post
 
-#### query json
+query json
 
-#### reduce
+reduce
 
-#### rename
+rename
 
-#### roll
+roll
 
-#### rotate
+rotate
 
-#### s3
+s3
 
-#### save
+save
 
-#### selector
+selector
 
-#### seq
+seq
 
-#### sort-by
+sort-by
 
-#### split-by
+split-by
 
-#### start
+start
 
-#### str
+str
 
-#### term size
+term size
 
-#### tutor
+tutor
 
-#### unalias
+unalias
 
-#### update cells
+update cells
 
-#### which
+which
 
-#### xpath
+xpath
 
-#### zip
+zip
