@@ -44,18 +44,18 @@ command [du] with parameter [deref]
 command [du] with parameter [exclude]
 command [du] with parameter [max-depth]
 
-#### each
+each
 
-- [ ] command [each group] with parameter [group_size]
-- [ ] command [each group] with parameter [block]
-- [ ] command [each window] with parameter [window_size]
-- [ ] command [each window] with parameter [block]
-- [ ] command [each window] with parameter [stride]
+command [each group] with parameter [group_size]
+command [each group] with parameter [block]
+command [each window] with parameter [window_size]
+command [each window] with parameter [block]
+command [each window] with parameter [stride]
 
-#### empty?
+empty?
 
-- [ ] command [empty?] with parameter [rest]
-- [ ] command [empty?] with parameter [block]
+command [empty?] with parameter [rest]
+command [empty?] with parameter [block]
 
 #### enter
 
@@ -266,16 +266,16 @@ command [du] with parameter [max-depth]
 - [ ] command [update cells] with parameter [block]
 - [ ] command [update cells] with parameter [columns]
 
-#### which
+which
 
-- [ ] command [which] with parameter [application]
-- [ ] command [which] with parameter [rest]
-- [ ] command [which] with parameter [all]
+command [which] with parameter [application]
+command [which] with parameter [rest]
+command [which] with parameter [all]
 
-#### xpath
+xpath
 
-- [ ] command [xpath] with parameter [query]
+command [xpath] with parameter [query]
 
-#### zip
+zip
 
-- [ ] command [zip] with parameter [block]
+command [zip] with parameter [block]
