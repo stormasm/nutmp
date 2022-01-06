@@ -122,62 +122,62 @@
 - [ ] command [rotate] with parameter [rest] is missing in eq
 - [ ] command [rotate counter-clockwise] with parameter [rest]
 
-- [ ] command [s3] with parameter [RESOURCE] is missing in eq
-- [ ] command [s3] with parameter [raw] is missing in eq
-- [ ] command [s3] with parameter [endpoint] is missing in eq
-- [ ] command [s3] with parameter [access_key] is missing in eq
-- [ ] command [s3] with parameter [secret_key] is missing in eq
-- [ ] command [s3] with parameter [region] is missing in eq
+- [ ] command [s3] with parameter [RESOURCE] 
+- [ ] command [s3] with parameter [raw]
+- [ ] command [s3] with parameter [endpoint]
+- [ ] command [s3] with parameter [access_key]
+- [ ] command [s3] with parameter [secret_key]
+- [ ] command [s3] with parameter [region]
 
-- [ ] command [save] with parameter [path] is missing in eq
-- [ ] command [save] with parameter [append] is missing in eq
-- [ ] command [save] with parameter [raw] is missing in eq
+- [ ] command [save] with parameter [path]
+- [ ] command [save] with parameter [append]
+- [ ] command [save] with parameter [raw]
 
-- [ ] command [selector] with parameter [inspect] is missing in eq
-- [ ] command [selector] with parameter [query] is missing in eq
-- [ ] command [selector] with parameter [as_html] is missing in eq
-- [ ] command [selector] with parameter [attribute] is missing in eq
-- [ ] command [selector] with parameter [as_table] is missing in eq
+- [ ] command [selector] with parameter [inspect]
+- [ ] command [selector] with parameter [query]
+- [ ] command [selector] with parameter [as_html]
+- [ ] command [selector] with parameter [attribute]
+- [ ] command [selector] with parameter [as_table]
 
-- [ ] command [seq] with parameter [rest] is missing in eq
-- [ ] command [seq] with parameter [widths] is missing in eq
-- [ ] command [seq] with parameter [separator] is missing in eq
-- [ ] command [seq] with parameter [terminator] is missing in eq
-- [ ] command [seq date] with parameter [reverse] is missing in eq
-- [ ] command [seq date] with parameter [separator] is missing in eq
-- [ ] command [seq date] with parameter [output-format] is missing in eq
-- [ ] command [seq date] with parameter [input-format] is missing in eq
-- [ ] command [seq date] with parameter [begin-date] is missing in eq
-- [ ] command [seq date] with parameter [end-date] is missing in eq
-- [ ] command [seq date] with parameter [increment] is missing in eq
-- [ ] command [seq date] with parameter [days] is missing in eq
+- [ ] command [seq] with parameter [rest]
+- [ ] command [seq] with parameter [widths]
+- [ ] command [seq] with parameter [separator]
+- [ ] command [seq] with parameter [terminator]
+- [ ] command [seq date] with parameter [reverse]
+- [ ] command [seq date] with parameter [separator]
+- [ ] command [seq date] with parameter [output-format]
+- [ ] command [seq date] with parameter [input-format]
+- [ ] command [seq date] with parameter [begin-date]
+- [ ] command [seq date] with parameter [end-date]
+- [ ] command [seq date] with parameter [increment]
+- [ ] command [seq date] with parameter [days]
 
-- [ ] command [sort-by] with parameter [rest] is missing in eq
-- [ ] command [sort-by] with parameter [reverse] is missing in eq
-- [ ] command [sort-by] with parameter [insensitive] is missing in eq
+- [ ] command [sort-by] with parameter [rest]
+- [ ] command [sort-by] with parameter [reverse]
+- [ ] command [sort-by] with parameter [insensitive]
 
-- [ ] command [split-by] with parameter [column_name] is missing in eq
+- [ ] command [split-by] with parameter [column_name]
 
-- [ ] command [start] with parameter [rest] is missing in eq
-- [ ] command [start] with parameter [application] is missing in eq
+- [ ] command [start] with parameter [rest]
+- [ ] command [start] with parameter [application]
 
-- [ ] command [str] with parameter [rest] is missing in eq
+- [ ] command [str] with parameter [rest]
 
-- [ ] command [term size] with parameter [tall] is missing in eq
-- [ ] command [term size] with parameter [wide] is missing in eq
+- [ ] command [term size] with parameter [tall]
+- [ ] command [term size] with parameter [wide]
 
-- [ ] command [tutor] with parameter [search] is missing in eq
-- [ ] command [tutor] with parameter [find] is missing in eq
+- [ ] command [tutor] with parameter [search]
+- [ ] command [tutor] with parameter [find]
 
-- [ ] command [unalias] with parameter [name] is missing in eq
+- [ ] command [unalias] with parameter [name]
 
-- [ ] command [update cells] with parameter [block] is missing in eq
-- [ ] command [update cells] with parameter [columns] is missing in eq
+- [ ] command [update cells] with parameter [block]
+- [ ] command [update cells] with parameter [columns]
 
-- [ ] command [which] with parameter [application] is missing in eq
-- [ ] command [which] with parameter [rest] is missing in eq
-- [ ] command [which] with parameter [all] is missing in eq
+- [ ] command [which] with parameter [application]
+- [ ] command [which] with parameter [rest]
+- [ ] command [which] with parameter [all]
 
-- [ ] command [xpath] with parameter [query] is missing in eq
+- [ ] command [xpath] with parameter [query]
 
-- [ ] command [zip] with parameter [block] is missing in eq
+- [ ] command [zip] with parameter [block]
