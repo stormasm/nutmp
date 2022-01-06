@@ -1,16 +1,14 @@
 
-
-
-## Missing features/commands
-
 - [ ] command [autoenv trust] with parameter [dir] is missing in eq
 - [ ] command [autoenv trust] with parameter [quiet] is missing in eq
 - [ ] command [autoenv untrust] with parameter [dir] is missing in eq
 - [ ] command [autoenv untrust] with parameter [quiet] is missing in eq
 - [ ] command [benchmark] with parameter [passthrough] is missing in eq
-- [x] command [binaryview] with parameter [bytes] is missing in eq <-- not porting
-- [x] command [binaryview] with parameter [lores] is missing in eq <-- not porting
-- [x] command [binaryview] with parameter [skip] is missing in eq <-- not porting
+
+
+
+
+
 - [ ] command [chart bar] with parameter [columns] is missing in eq
 - [ ] command [chart bar] with parameter [format] is missing in eq
 - [ ] command [chart bar] with parameter [acc] is missing in eq
@@ -20,21 +18,20 @@
 - [ ] command [chart line] with parameter [acc] is missing in eq
 - [ ] command [chart line] with parameter [use] is missing in eq
 - [ ] command [compact] with parameter [rest] is missing in eq
-- [x] command [dfr drop-duplicates] with parameter [subset] is missing in eq
-- [x] command [dfr drop-duplicates] with parameter [maintain] is missing in eq
-- [x] command [dfr select] with parameter [rows] is missing in eq  <--- duplicated with get
-- [x] command [dfr select] with parameter [rest] is missing in eq   <--- duplicated with get
-- [x] command [dfr unique] with parameter [period] is missing in eq <--- parameter doesnt exit
-- [x] command [dfr show] with parameter [tail] is missing in eq  <--- changed to `to-nu`
-- [x] command [dfr show] with parameter [n_rows] is missing in eq <--- changed to `to-nu`
-- [x] command [dfr where] with parameter [condition] is missing in eq <--- better logic with masks (redundant)
-- [x] command [date format] with parameter [table] is missing in eq
-- [x] command [date humanize] with parameter [table] is missing in eq
+
+
+
+
+
+
+
 - [ ] command [default] with parameter [column name] is missing in eq
 - [ ] command [default] with parameter [column value] is missing in eq
 - [ ] command [detect columns] with parameter [no_headers] is missing in eq
 - [ ] command [detect columns] with parameter [skip] is missing in eq
-- [x] command [do] with parameter [ignore-errors] is missing in eq
+
+
+
 - [ ] command [du] with parameter [path] is missing in eq
 - [ ] command [du] with parameter [min-size] is missing in eq
 - [ ] command [du] with parameter [all] is missing in eq
@@ -48,26 +45,33 @@
 - [ ] command [each window] with parameter [stride] is missing in eq
 - [ ] command [empty?] with parameter [rest] is missing in eq
 - [ ] command [empty?] with parameter [block] is missing in eq
-- [x] command [enter] with parameter [location] is missing in eq
+
+
+
 - [ ] command [enter] with parameter [encoding] is missing in eq
-- [x] command [every] with parameter [stride] is missing in eq
-- [x] command [every] with parameter [skip] is missing in eq
+
+
+
+
+
 - [ ] command [exec] with parameter [command] is missing in eq
 - [ ] command [exec] with parameter [rest] is missing in eq
-- [x] command [exit] with parameter [code] is missing in eq
-- [x] command [exit] with parameter [now] is missing in eq
-- [x] command [fetch] with parameter [URL] is missing in eq
-- [x] command [fetch] with parameter [raw] is missing in eq
-- [x] command [fetch] with parameter [user] is missing in eq
-- [x] command [fetch] with parameter [password] is missing in eq
+
+
+
+
 - [ ] command [find] with parameter [rest] is missing in eq
-- [x] command [for] with parameter [numbered] is missing in eq
+
+
+
 - [ ] command [format filesize] with parameter [field] is missing in eq
 - [ ] command [format filesize] with parameter [format value] is missing in eq
 - [ ] command [from sqlite] with parameter [tables] is missing in eq
-- [x] command [from tsv] with parameter [noheaders] is missing in eq
-- [x] command [from xlsx] with parameter [noheaders] is missing in eq
-- [x] command [g] with parameter [index] is missing in eq
+
+
+
+
+
 - [ ] command [get] with parameter [rest] is missing in eq
 - [ ] command [group-by] with parameter [grouper] is missing in eq
 - [ ] command [group-by date] with parameter [column_name] is missing in eq
@@ -79,20 +83,27 @@
 - [ ] command [hash base64] with parameter [encode] is missing in eq
 - [ ] command [histogram] with parameter [rest] is missing in eq
 - [ ] command [histogram] with parameter [use] is missing in eq
-- [x] command [history] with parameter [clear] is missing in eq
+
+
+
+
+
+
 - [ ] command [inc] with parameter [rest] is missing in eq
 - [ ] command [insert] with parameter [column] is missing in eq
 - [ ] command [insert] with parameter [value] is missing in eq
 - [ ] command [into column-path] with parameter [rest] is missing in eq
-- [x] command [keep] with parameter [rows] is missing in eq
-- [x] command [length] with parameter [column] is missing in eq
-- [x] command [let] with parameter [name] is missing in eq
+
+
+
+
 - [ ] command [load-env] with parameter [environ] is missing in eq
-- [x] command [ls] with parameter [path] is missing in eq
+
+
 - [ ] command [ls] with parameter [du] is missing in eq
-- [x] command [ls] with parameter [all] is missing in eq
-- [x] command [ls] with parameter [long] is missing in eq
-- [x] command [ls] with parameter [short-names] is missing in eq
+
+
+
 - [ ] command [match] with parameter [member] is missing in eq
 - [ ] command [match] with parameter [regex] is missing in eq
 - [ ] command [match] with parameter [invert] is missing in eq
@@ -104,9 +115,9 @@
 - [ ] command [move] with parameter [before] is missing in eq
 - [ ] command [move] with parameter [after] is missing in eq
 - [ ] command [nu plugin] with parameter [load] is missing in eq
-- [x] command [open] with parameter [path] is missing in eq
-- [x] command [open] with parameter [encoding] is missing in eq <-- moved to `decode` command
-- [x] command [open] with parameter [raw] is missing in eq
+
+
+
 - [ ] command [pivot] with parameter [rest] is missing in eq
 - [ ] command [pivot] with parameter [ignore-titles] is missing in eq
 - [ ] command [pivot] with parameter [header-row] is missing in eq
@@ -163,10 +174,12 @@
 - [ ] command [start] with parameter [rest] is missing in eq
 - [ ] command [start] with parameter [application] is missing in eq
 - [ ] command [str] with parameter [rest] is missing in eq
-- [x] command [table] with parameter [start_number] is missing in eq
+
 - [ ] command [term size] with parameter [tall] is missing in eq
 - [ ] command [term size] with parameter [wide] is missing in eq
-- [x] command [to json] with parameter [pretty] is missing in eq <-- it is pretty by default now - non-pretty use `json -r`
+
+
+
 - [ ] command [tutor] with parameter [search] is missing in eq
 - [ ] command [tutor] with parameter [find] is missing in eq
 - [ ] command [unalias] with parameter [name] is missing in eq
@@ -177,7 +190,3 @@
 - [ ] command [which] with parameter [all] is missing in eq
 - [ ] command [xpath] with parameter [query] is missing in eq
 - [ ] command [zip] with parameter [block] is missing in eq
-
-# Porting WholeStreamCommand (nushell) to Command (engine-q)
-
-All commands have the standard boilerplate methods including
