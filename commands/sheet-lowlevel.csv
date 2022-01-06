@@ -21,28 +21,28 @@ command [chart line] with parameter [format]
 command [chart line] with parameter [acc]
 command [chart line] with parameter [use]
 
-#### compact
+compact
 
-- [ ] command [compact] with parameter [rest]
+command [compact] with parameter [rest]
 
-#### default
+default
 
-- [ ] command [default] with parameter [column name]
-- [ ] command [default] with parameter [column value]
+command [default] with parameter [column name]
+command [default] with parameter [column value]
 
-#### detect
+detect
 
-- [ ] command [detect columns] with parameter [no_headers]
-- [ ] command [detect columns] with parameter [skip]
+command [detect columns] with parameter [no_headers]
+command [detect columns] with parameter [skip]
 
-#### du
+du
 
-- [ ] command [du] with parameter [path]
-- [ ] command [du] with parameter [min-size]
-- [ ] command [du] with parameter [all]
-- [ ] command [du] with parameter [deref]
-- [ ] command [du] with parameter [exclude]
-- [ ] command [du] with parameter [max-depth]
+command [du] with parameter [path]
+command [du] with parameter [min-size]
+command [du] with parameter [all]
+command [du] with parameter [deref]
+command [du] with parameter [exclude]
+command [du] with parameter [max-depth]
 
 #### each
 
