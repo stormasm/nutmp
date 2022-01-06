@@ -51,78 +51,78 @@
 
 - [ ] command [from sqlite] with parameter [tables]
 
-- [ ] command [get] with parameter [rest] is missing in eq
+- [ ] command [get] with parameter [rest] 
 
-- [ ] command [group-by] with parameter [grouper] is missing in eq
-- [ ] command [group-by date] with parameter [column_name] is missing in eq
-- [ ] command [group-by date] with parameter [format] is missing in eq
+- [ ] command [group-by] with parameter [grouper]
+- [ ] command [group-by date] with parameter [column_name]
+- [ ] command [group-by date] with parameter [format]
 
-- [ ] command [hash] with parameter [rest] is missing in eq
-- [ ] command [hash base64] with parameter [rest] is missing in eq
-- [ ] command [hash base64] with parameter [decode] is missing in eq
-- [ ] command [hash base64] with parameter [character_set] is missing in eq
-- [ ] command [hash base64] with parameter [encode] is missing in eq
+- [ ] command [hash] with parameter [rest]
+- [ ] command [hash base64] with parameter [rest]
+- [ ] command [hash base64] with parameter [decode]
+- [ ] command [hash base64] with parameter [character_set]
+- [ ] command [hash base64] with parameter [encode]
 
-- [ ] command [histogram] with parameter [rest] is missing in eq
-- [ ] command [histogram] with parameter [use] is missing in eq
+- [ ] command [histogram] with parameter [rest]
+- [ ] command [histogram] with parameter [use]
 
-- [ ] command [inc] with parameter [rest] is missing in eq
+- [ ] command [inc] with parameter [rest]
 
-- [ ] command [insert] with parameter [column] is missing in eq
-- [ ] command [insert] with parameter [value] is missing in eq
+- [ ] command [insert] with parameter [column]
+- [ ] command [insert] with parameter [value]
 
-- [ ] command [into column-path] with parameter [rest] is missing in eq
+- [ ] command [into column-path] with parameter [rest]
 
-- [ ] command [load-env] with parameter [environ] is missing in eq
+- [ ] command [load-env] with parameter [environ]
 
-- [ ] command [ls] with parameter [du] is missing in eq
+- [ ] command [ls] with parameter [du]
 
-- [ ] command [match] with parameter [member] is missing in eq
-- [ ] command [match] with parameter [regex] is missing in eq
-- [ ] command [match] with parameter [invert] is missing in eq
-- [ ] command [match] with parameter [insensitive] is missing in eq
-- [ ] command [match] with parameter [multiline] is missing in eq
-- [ ] command [match] with parameter [dotall] is missing in eq
+- [ ] command [match] with parameter [member]
+- [ ] command [match] with parameter [regex]
+- [ ] command [match] with parameter [invert]
+- [ ] command [match] with parameter [insensitive]
+- [ ] command [match] with parameter [multiline]
+- [ ] command [match] with parameter [dotall]
 
 - [ ] command [merge] with parameter [block] is missing in eq
 
-- [ ] command [move] with parameter [rest] is missing in eq
-- [ ] command [move] with parameter [before] is missing in eq
-- [ ] command [move] with parameter [after] is missing in eq
+- [ ] command [move] with parameter [rest]
+- [ ] command [move] with parameter [before]
+- [ ] command [move] with parameter [after]
 
-- [ ] command [nu plugin] with parameter [load] is missing in eq
+- [ ] command [nu plugin] with parameter [load]
 
-- [ ] command [pivot] with parameter [rest] is missing in eq
-- [ ] command [pivot] with parameter [ignore-titles] is missing in eq
-- [ ] command [pivot] with parameter [header-row] is missing in eq
+- [ ] command [pivot] with parameter [rest]
+- [ ] command [pivot] with parameter [ignore-titles]
+- [ ] command [pivot] with parameter [header-row]
 
-- [ ] command [post] with parameter [path] is missing in eq
-- [ ] command [post] with parameter [body] is missing in eq
-- [ ] command [post] with parameter [raw] is missing in eq
-- [ ] command [post] with parameter [user] is missing in eq
-- [ ] command [post] with parameter [password] is missing in eq
-- [ ] command [post] with parameter [content-type] is missing in eq
-- [ ] command [post] with parameter [content-length] is missing in eq
+- [ ] command [post] with parameter [path]
+- [ ] command [post] with parameter [body]
+- [ ] command [post] with parameter [raw]
+- [ ] command [post] with parameter [user]
+- [ ] command [post] with parameter [password]
+- [ ] command [post] with parameter [content-type]
+- [ ] command [post] with parameter [content-length]
 
-- [ ] command [query json] with parameter [query] is missing in eq
+- [ ] command [query json] with parameter [query]
 
-- [ ] command [reduce] with parameter [block] is missing in eq
-- [ ] command [reduce] with parameter [numbered] is missing in eq
-- [ ] command [reduce] with parameter [fold] is missing in eq
+- [ ] command [reduce] with parameter [block]
+- [ ] command [reduce] with parameter [numbered]
+- [ ] command [reduce] with parameter [fold]
 
-- [ ] command [rename] with parameter [column_name] is missing in eq
-- [ ] command [rename] with parameter [rest] is missing in eq
+- [ ] command [rename] with parameter [column_name]
+- [ ] command [rename] with parameter [rest] i
 
-- [ ] command [roll] with parameter [by] is missing in eq
-- [ ] command [roll column] with parameter [by] is missing in eq
-- [ ] command [roll column] with parameter [cells-only] is missing in eq
-- [ ] command [roll column] with parameter [opposite] is missing in eq
-- [ ] command [roll up] with parameter [by] is missing in eq
+- [ ] command [roll] with parameter [by]
+- [ ] command [roll column] with parameter [by]
+- [ ] command [roll column] with parameter [cells-only]
+- [ ] command [roll column] with parameter [opposite]
+- [ ] command [roll up] with parameter [by]
 
-- [ ] command [rotate] with parameter [rest] is missing in eq
+- [ ] command [rotate] with parameter [rest]
 - [ ] command [rotate counter-clockwise] with parameter [rest]
 
-- [ ] command [s3] with parameter [RESOURCE] 
+- [ ] command [s3] with parameter [RESOURCE]
 - [ ] command [s3] with parameter [raw]
 - [ ] command [s3] with parameter [endpoint]
 - [ ] command [s3] with parameter [access_key]
