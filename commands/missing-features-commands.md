@@ -1,10 +1,10 @@
 
-- [ ] [autoenv trust] with parameter [dir]
-- [ ] [autoenv trust] with parameter [quiet]
-- [ ] [autoenv untrust] with parameter [dir]
-- [ ] [autoenv untrust] with parameter [quiet]
+- [ ] command [autoenv trust] with parameter [dir]
+- [ ] command [autoenv trust] with parameter [quiet]
+- [ ] command [autoenv untrust] with parameter [dir]
+- [ ] command [autoenv untrust] with parameter [quiet]
 
-- [ ] [benchmark] with parameter [passthrough]
+- [ ] command [benchmark] with parameter [passthrough]
 
 - [ ] command [chart bar] with parameter [columns]
 - [ ] command [chart bar] with parameter [format]
@@ -51,7 +51,7 @@
 
 - [ ] command [from sqlite] with parameter [tables]
 
-- [ ] command [get] with parameter [rest] 
+- [ ] command [get] with parameter [rest]
 
 - [ ] command [group-by] with parameter [grouper]
 - [ ] command [group-by date] with parameter [column_name]
