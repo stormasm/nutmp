@@ -57,39 +57,39 @@ empty?
 command [empty?] with parameter [rest]
 command [empty?] with parameter [block]
 
-#### enter
+enter
 
 - [ ] command [enter] with parameter [encoding]
 
-#### exec
+exec
 
 - [ ] command [exec] with parameter [command]
 - [ ] command [exec] with parameter [rest]
 
-#### find
+find
 
 - [ ] command [find] with parameter [rest]
 
-#### format filesize
+format filesize
 
 - [ ] command [format filesize] with parameter [field]
 - [ ] command [format filesize] with parameter [format value]
 
-#### from sqlite
+from sqlite
 
 - [ ] command [from sqlite] with parameter [tables]
 
-#### get
+get
 
 - [ ] command [get] with parameter [rest]
 
-#### group-by
+group-by
 
 - [ ] command [group-by] with parameter [grouper]
 - [ ] command [group-by date] with parameter [column_name]
 - [ ] command [group-by date] with parameter [format]
 
-#### hash
+hash
 
 - [ ] command [hash] with parameter [rest]
 - [ ] command [hash base64] with parameter [rest]
@@ -97,33 +97,33 @@ command [empty?] with parameter [block]
 - [ ] command [hash base64] with parameter [character_set]
 - [ ] command [hash base64] with parameter [encode]
 
-#### histogram
+histogram
 
 - [ ] command [histogram] with parameter [rest]
 - [ ] command [histogram] with parameter [use]
 
-#### inc
+inc
 
 - [ ] command [inc] with parameter [rest]
 
-#### insert
+insert
 
 - [ ] command [insert] with parameter [column]
 - [ ] command [insert] with parameter [value]
 
-#### into column path-path
+into column path-path
 
 - [ ] command [into column-path] with parameter [rest]
 
-#### load-env
+load-env
 
 - [ ] command [load-env] with parameter [environ]
 
-#### ls
+ls
 
 - [ ] command [ls] with parameter [du]
 
-#### match
+match
 
 - [ ] command [match] with parameter [member]
 - [ ] command [match] with parameter [regex]
@@ -132,27 +132,27 @@ command [empty?] with parameter [block]
 - [ ] command [match] with parameter [multiline]
 - [ ] command [match] with parameter [dotall]
 
-#### merge
+merge
 
 - [ ] command [merge] with parameter [block] is missing in eq
 
-#### move
+move
 
 - [ ] command [move] with parameter [rest]
 - [ ] command [move] with parameter [before]
 - [ ] command [move] with parameter [after]
 
-#### nu plugin
+nu plugin
 
 - [ ] command [nu plugin] with parameter [load]
 
-#### pivot
+pivot
 
 - [ ] command [pivot] with parameter [rest]
 - [ ] command [pivot] with parameter [ignore-titles]
 - [ ] command [pivot] with parameter [header-row]
 
-#### post
+post
 
 - [ ] command [post] with parameter [path]
 - [ ] command [post] with parameter [body]
@@ -162,22 +162,22 @@ command [empty?] with parameter [block]
 - [ ] command [post] with parameter [content-type]
 - [ ] command [post] with parameter [content-length]
 
-#### query json
+query json
 
 - [ ] command [query json] with parameter [query]
 
-#### reduce
+reduce
 
 - [ ] command [reduce] with parameter [block]
 - [ ] command [reduce] with parameter [numbered]
 - [ ] command [reduce] with parameter [fold]
 
-#### rename
+rename
 
 - [ ] command [rename] with parameter [column_name]
 - [ ] command [rename] with parameter [rest] i
 
-#### roll
+roll
 
 - [ ] command [roll] with parameter [by]
 - [ ] command [roll column] with parameter [by]
@@ -185,12 +185,12 @@ command [empty?] with parameter [block]
 - [ ] command [roll column] with parameter [opposite]
 - [ ] command [roll up] with parameter [by]
 
-#### rotate
+rotate
 
 - [ ] command [rotate] with parameter [rest]
 - [ ] command [rotate counter-clockwise] with parameter [rest]
 
-#### s3
+s3
 
 - [ ] command [s3] with parameter [RESOURCE]
 - [ ] command [s3] with parameter [raw]
@@ -199,72 +199,72 @@ command [empty?] with parameter [block]
 - [ ] command [s3] with parameter [secret_key]
 - [ ] command [s3] with parameter [region]
 
-#### save
+save
 
 - [ ] command [save] with parameter [path]
 - [ ] command [save] with parameter [append]
 - [ ] command [save] with parameter [raw]
 
-#### selector
+selector
 
-- [ ] command [selector] with parameter [inspect]
-- [ ] command [selector] with parameter [query]
-- [ ] command [selector] with parameter [as_html]
-- [ ] command [selector] with parameter [attribute]
-- [ ] command [selector] with parameter [as_table]
+command [selector] with parameter [inspect]
+command [selector] with parameter [query]
+command [selector] with parameter [as_html]
+command [selector] with parameter [attribute]
+command [selector] with parameter [as_table]
 
-#### seq
+seq
 
-- [ ] command [seq] with parameter [rest]
-- [ ] command [seq] with parameter [widths]
-- [ ] command [seq] with parameter [separator]
-- [ ] command [seq] with parameter [terminator]
-- [ ] command [seq date] with parameter [reverse]
-- [ ] command [seq date] with parameter [separator]
-- [ ] command [seq date] with parameter [output-format]
-- [ ] command [seq date] with parameter [input-format]
-- [ ] command [seq date] with parameter [begin-date]
-- [ ] command [seq date] with parameter [end-date]
-- [ ] command [seq date] with parameter [increment]
-- [ ] command [seq date] with parameter [days]
+command [seq] with parameter [rest]
+command [seq] with parameter [widths]
+command [seq] with parameter [separator]
+command [seq] with parameter [terminator]
+command [seq date] with parameter [reverse]
+command [seq date] with parameter [separator]
+command [seq date] with parameter [output-format]
+command [seq date] with parameter [input-format]
+command [seq date] with parameter [begin-date]
+command [seq date] with parameter [end-date]
+command [seq date] with parameter [increment]
+command [seq date] with parameter [days]
 
-#### sort-by
+sort-by
 
-- [ ] command [sort-by] with parameter [rest]
-- [ ] command [sort-by] with parameter [reverse]
-- [ ] command [sort-by] with parameter [insensitive]
+command [sort-by] with parameter [rest]
+command [sort-by] with parameter [reverse]
+command [sort-by] with parameter [insensitive]
 
-#### split-by
+split-by
 
-- [ ] command [split-by] with parameter [column_name]
+command [split-by] with parameter [column_name]
 
-#### start
+start
 
-- [ ] command [start] with parameter [rest]
-- [ ] command [start] with parameter [application]
+command [start] with parameter [rest]
+command [start] with parameter [application]
 
-#### str
+str
 
-- [ ] command [str] with parameter [rest]
+command [str] with parameter [rest]
 
-#### term size
+term size
 
-- [ ] command [term size] with parameter [tall]
-- [ ] command [term size] with parameter [wide]
+command [term size] with parameter [tall]
+command [term size] with parameter [wide]
 
-#### tutor
+tutor
 
-- [ ] command [tutor] with parameter [search]
-- [ ] command [tutor] with parameter [find]
+command [tutor] with parameter [search]
+command [tutor] with parameter [find]
 
-#### unalias
+unalias
 
-- [ ] command [unalias] with parameter [name]
+command [unalias] with parameter [name]
 
-#### update cells
+update cells
 
-- [ ] command [update cells] with parameter [block]
-- [ ] command [update cells] with parameter [columns]
+command [update cells] with parameter [block]
+command [update cells] with parameter [columns]
 
 which
 
