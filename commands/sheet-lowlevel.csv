@@ -104,47 +104,47 @@ command [histogram] with parameter [use]
 
 inc
 
-- [ ] command [inc] with parameter [rest]
+command [inc] with parameter [rest]
 
 insert
 
-- [ ] command [insert] with parameter [column]
-- [ ] command [insert] with parameter [value]
+command [insert] with parameter [column]
+command [insert] with parameter [value]
 
 into column path-path
 
-- [ ] command [into column-path] with parameter [rest]
+command [into column-path] with parameter [rest]
 
 load-env
 
-- [ ] command [load-env] with parameter [environ]
+command [load-env] with parameter [environ]
 
 ls
 
-- [ ] command [ls] with parameter [du]
+command [ls] with parameter [du]
 
 match
 
-- [ ] command [match] with parameter [member]
-- [ ] command [match] with parameter [regex]
-- [ ] command [match] with parameter [invert]
-- [ ] command [match] with parameter [insensitive]
-- [ ] command [match] with parameter [multiline]
-- [ ] command [match] with parameter [dotall]
+command [match] with parameter [member]
+command [match] with parameter [regex]
+command [match] with parameter [invert]
+command [match] with parameter [insensitive]
+command [match] with parameter [multiline]
+command [match] with parameter [dotall]
 
 merge
 
-- [ ] command [merge] with parameter [block] is missing in eq
+command [merge] with parameter [block] is missing in eq
 
 move
 
-- [ ] command [move] with parameter [rest]
-- [ ] command [move] with parameter [before]
-- [ ] command [move] with parameter [after]
+command [move] with parameter [rest]
+command [move] with parameter [before]
+command [move] with parameter [after]
 
 nu plugin
 
-- [ ] command [nu plugin] with parameter [load]
+command [nu plugin] with parameter [load]
 
 pivot
 
