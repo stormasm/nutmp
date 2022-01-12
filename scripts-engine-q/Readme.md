@@ -1,0 +1,2 @@
+
+[discord for nu.nu script](https://discord.com/channels/601130461678272522/683070703716925568/930873386714947584)
