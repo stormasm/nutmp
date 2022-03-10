@@ -12,9 +12,7 @@
 | experimental | view_source |
 | filters | columns, par_each, transpose |
 | formats | nuon |
-| hash | new new hash commands ? |
 | math | reducers |
-| path | no new path commands ? |
 | system | complete |
 | viewers | grid |
 
