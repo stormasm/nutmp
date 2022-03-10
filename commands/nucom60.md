@@ -1,7 +1,9 @@
 
+### New Commands in 0.60
+
 | category | command |
 | -------- | ------- |
-| conversions | x |
+| conversions | into {bool, datetime, duration} |
 | core | x |
 | date | x |
 | env | x |
