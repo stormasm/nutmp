@@ -19,9 +19,9 @@
 | math | reducers |
 | network | no new network commands ? |
 | path | no new path commands ? |
-| platform | x |
-| random | x |
-| shells | x |
-| strings | x |
-| system | x |
-| viewers | x |
+| platform | no new platform commands ? |
+| random | no new random commands ? |
+| shells | no new shells commands ? |
+| strings | no new strings commands ? |
+| system | complete |
+| viewers | grid | 
