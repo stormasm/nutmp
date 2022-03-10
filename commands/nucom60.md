@@ -13,12 +13,12 @@
 | experimental | view_source |
 | filesystem | no new filesystem commands ? |
 | filters | columns, par_each, transpose |
-| formats | x |
-| generators | x |
-| hash | x |
-| math | x |
-| network | x |
-| path | x |
+| formats | nuon |
+| generators | no new generator commands ? |
+| hash | new new hash commands ? |
+| math | reducers |
+| network | no new network commands ? |
+| path | no new path commands ? |
 | platform | x |
 | random | x |
 | shells | x |
