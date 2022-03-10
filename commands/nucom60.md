@@ -4,7 +4,10 @@
 | category | command |
 | -------- | ------- |
 | conversions | into {bool, datetime, duration} |
-| core | def_env, error_make, export_def_env, export_def, export_env, export, extern, hide, metadata, mod, module, register, use |
+| core | def_env, error_make |
+| core | export_def_env, export_def, export_env, export |
+| core | extern, hide, metadata  |
+| core | mod, module register, use |
 | date | x |
 | env | x |
 | experimental | x |
