@@ -18,6 +18,11 @@
 | system | complete |
 | viewers | grid |
 
+
+### Questions ?
+
+* ignore is in 0.44 but it is listed in the 0.60 blog post
+
 ### No new commands in the following categories ?
 
 | category | command |
@@ -31,7 +36,3 @@
 | platform | none |
 | random | none |
 | shells | none |
-
-### Questions ?
-
-* ignore is in 0.44 but you have it listed in your blog post
