@@ -8,11 +8,11 @@
 | core | export_def_env, export_def, export_env, export |
 | core | extern, hide, metadata  |
 | core | mod, module register, use |
-| date | x |
-| env | x |
-| experimental | x |
-| filesystem | x |
-| filters | x |
+| date | no new date commands ? |
+| env | let_env, load_env, with_env |
+| experimental | view_source |
+| filesystem | no new filesystem commands ? |
+| filters | columns, par_each, transpose |
 | formats | x |
 | generators | x |
 | hash | x |
