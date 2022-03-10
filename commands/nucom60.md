@@ -4,15 +4,17 @@
 | category | command |
 | -------- | ------- |
 | conversions | into {bool, datetime, duration} |
-| core | def_env, error_make |
-| core | export_def_env, export_def, export_env, export |
+| core | def-env, error make |
+| core | export_def_env, export_def, export env, export |
 | core | extern, hide, metadata  |
-| core | mod, module register, use |
-| env | let_env, load_env, with_env |
+| core | ignore, mod, module, register, use, view-source |
+| env | let_env, load_env, with-env |
 | experimental | view_source |
-| filters | columns, par_each, transpose |
+| filters | columns, group, par-each, transpose, window |
 | formats | nuon |
 | math | reducers |
+| plugins | gstat |
+| strings | decode, nu-highlight, print |
 | system | complete |
 | viewers | grid |
 
@@ -29,4 +31,7 @@
 | platform | none |
 | random | none |
 | shells | none |
-| strings | none |
+
+### Questions ?
+
+* ignore is in 0.44 but you have it listed in your blog post
