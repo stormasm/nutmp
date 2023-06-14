@@ -1,3 +1,4 @@
+```rust
 total 665872
 -rw-r--r--  1 ma  staff      2321 Jun 14 09:44 ahash-1d3efc78152df60d.d
 -rw-r--r--  1 ma  staff      2321 Jun 14 09:44 ahash-ad66b49385258d61.d
@@ -369,3 +370,4 @@ deps$
 deps$ pwd
 /Users/ma/j/tmp12/nushell/target/debug/deps
 deps$
+```
