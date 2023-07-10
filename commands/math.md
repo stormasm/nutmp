@@ -1,4 +1,19 @@
 
+## update 
+
+I am doing some more research on this topic to figure
+out if we can have math commands in both places...
+
+because the sum command is already taken for checksums...
+
+so ideally we could have "math subcommand" both in
+
+* nu-command
+* nu-cmd-extra
+
+stay tuned...
+
+
 # Cratification: porting math commands over to nu-cmd-extra
 
 ## Proposal : Move the math sum command out of math
