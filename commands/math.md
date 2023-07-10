@@ -2,6 +2,7 @@
 
 The following tests use the *math sum* command...
 
+```rust
 tests::test_engine::loose_each
 tests::test_engine::range_right_exclusive
 tests::test_engine::reusable_in
@@ -22,3 +23,4 @@ shell::pipeline::commands::internal::range_with_open_right
 shell::pipeline::commands::internal::range_with_right_var
 shell::pipeline::commands::internal::table_literals2
 shell::pipeline::commands::internal::table_with_commas
+```
