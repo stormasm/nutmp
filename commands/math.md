@@ -1,40 +1,18 @@
 
-## update 
-
-I am doing some more research on this topic to figure
-out if we can have math commands in both places...
-
-because the sum command is already taken for checksums...
-
-so ideally we could have "math subcommand" both in
-
-* nu-command
-* nu-cmd-extra
-
-stay tuned...
-
-
 # Cratification: porting math commands over to nu-cmd-extra
-
-## Proposal : Move the math sum command out of math
 
 I am in the process of moving over the math commands to nu-cmd-extra
 
 In the process of doing that I discovered that the *math sum* command
 is a virus across all of our nushell tests.  See the list below !
 
-Therefore prior to moving over the math commands to nu-cmd-extra I am
-proposing that we create a new *sum* command that does not live in math
-so that all of the tests below will pass.
+So I decided to move the math commands over slowly instead...
 
-Once that is accomplished then we should be able to move the math commands
-over nu-cmd-extra...
+And I kind of like this idea because we may want to leave some of the
+math commands in nu-command...
 
-Unless we discover something else...
-
-I am open to other suggestions
-
-Thank you !
+Clearly based on these findings the *math sum* command will stay in
+nu-command.
 
 The following tests use the *math sum* command...
 
@@ -61,7 +39,7 @@ shell::pipeline::commands::internal::table_literals2
 shell::pipeline::commands::internal::table_with_commas
 ```
 
-### Tests in the nu-command crate that use sum
+### Tests in the nu-command crate that use math sum
 
 ```rust
 commands::break_::break_each
@@ -80,31 +58,4 @@ commands::take::while_::condition_is_met
 commands::where_::filters_with_nothing_comparison
 commands::where_::where_in_table
 commands::where_::where_not_in_table
-```
-
-### These tests in nu-command will move over to nu-cmd-extra
-
-```rust
-commands::math::avg::can_average_bytes
-commands::math::avg::can_average_numbers
-commands::math::median::median_mixed_numbers
-commands::math::median::median_numbers_with_even_rows
-commands::math::median::median_numbers_with_odd_rows
-commands::math::round::can_round_float_with_negative_precision
-commands::math::round::can_round_integer_with_negative_precision
-commands::math::round::can_round_very_large_numbers
-commands::math::round::can_round_very_large_numbers_with_precision
-commands::math::round::fails_with_wrong_input_type
-commands::math::sqrt::can_sqrt_irrational
-commands::math::sqrt::can_sqrt_numbers
-commands::math::sqrt::can_sqrt_perfect_square
-```
-
-### These test commands will integrate into the new sum command
-
-```rust
-commands::math::sum::all
-commands::math::sum::compute_sum_of_individual_row
-commands::math::sum::compute_sum_of_table
-commands::math::sum::sum_of_a_row_containing_a_table_is_an_error
 ```
