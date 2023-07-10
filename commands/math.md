@@ -44,7 +44,7 @@ shell::pipeline::commands::internal::table_literals2
 shell::pipeline::commands::internal::table_with_commas
 ```
 
-### Commands in the nu-command crate
+### Commands in the nu-command crate that use sum
 
 ```rust
 commands::break_::break_each
