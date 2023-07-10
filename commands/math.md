@@ -44,7 +44,7 @@ shell::pipeline::commands::internal::table_literals2
 shell::pipeline::commands::internal::table_with_commas
 ```
 
-### Commands in the nu-command crate that use sum
+### Tests in the nu-command crate that use sum
 
 ```rust
 commands::break_::break_each
@@ -65,7 +65,7 @@ commands::where_::where_in_table
 commands::where_::where_not_in_table
 ```
 
-### These commands will move over to nu-cmd-extra
+### These tests in nu-command will move over to nu-cmd-extra
 
 ```rust
 commands::math::avg::can_average_bytes
@@ -83,7 +83,7 @@ commands::math::sqrt::can_sqrt_numbers
 commands::math::sqrt::can_sqrt_perfect_square
 ```
 
-### These commands will integrate into the new sum command
+### These test commands will integrate into the new sum command
 
 ```rust
 commands::math::sum::all
