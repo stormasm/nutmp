@@ -1,4 +1,6 @@
 
+# Cratification: porting math commands over to nu-cmd-extra
+
 ## Proposal : Move the math sum command out of math
 
 I am in the process of moving over the math commands to nu-cmd-extra
