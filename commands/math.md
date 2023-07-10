@@ -1,4 +1,23 @@
 
+## Proposal : Move the math sum command out of math
+
+I am in the process of moving over the math commands to nu-cmd-extra
+
+In the process of doing that I discovered that the *math sum* command
+is a virus across all of our nushell tests.  See the list below !
+
+Therefore prior to moving over the math commands to nu-cmd-extra I am
+proposing that we create a new *sum* command that does not live in math
+so that all of the tests below will pass.
+
+Once that is accomplished then we should be able to move the math commands
+over nu-cmd-extra...
+
+Unless we discover something else...
+
+I am open to other suggestions
+
+Thank you !
 
 The following tests use the *math sum* command...
 
