@@ -6,7 +6,7 @@ The commands in this crate are the *extra commands* of Nushell.  They do not
 get built for the release and it is the responsibility of the developer to
 build these commands if they want to use them.
 
-Also these commands are not going to part of the 1.0 api; meaning that there
+These commands are not going to part of the 1.0 API; meaning that there
 is no guarantee longer term that these commands will be around into the future.
 Of course since they are part of the source tree now the developer could always
 incorporate them into their own custom release.
@@ -25,5 +25,5 @@ cargo build --features=extra
 Your Nushell binary which just got built is called *nu* and will be located here.
 
 ```
-nushell/target/debug/nu'
+nushell/target/debug/nu
 ```
