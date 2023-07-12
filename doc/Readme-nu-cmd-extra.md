@@ -11,6 +11,22 @@ is no guarantee longer term that these commands will be around into the future.
 Of course since they are part of the source tree now the developer could always
 incorporate them into their own custom release.
 
+### List of commands in nu-cmd-extra
+
+To see a list of commands in this crate [go to this file for a list](https://github.com/nushell/nushell/blob/main/crates/nu-cmd-extra/src/extra/mod.rs) of
+the detailed commands...
+
+They are in the following categories...
+
+* bits
+* bytes
+* conversions
+* filters
+* formats
+* math
+* platform
+* strings
+
 ### How to build the commands in this crate
 
 You must first make sure that you have rust installed on your system.  For
