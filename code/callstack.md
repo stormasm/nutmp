@@ -1,4 +1,8 @@
 
+What happens when nushell crashes ?  And you don't successfully process the error...
+
+### This is what the callstack looks like
+
 ```rust
 influxdb_iox$ nuruniox
 ~/j/tmp06/influxdb_iox> ioxsql paul
