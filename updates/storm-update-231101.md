@@ -22,3 +22,8 @@ end user ecosystem projects including...
 
 [nuPHP:](https://github.com/mikayla-maki/nuPHP)
 The nu Personal HomePage webserver and example website.
+
+Besides the nushell end user ecosystem projects I will continue to focus
+on the work being done by @sophia and @sholderbach on the
+[new-nu-parser](https://github.com/jntrnr/new-nu-parser) mainly in the area
+of testing and integration as it unfolds...
