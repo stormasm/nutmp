@@ -7,7 +7,7 @@ to focus more of my energy and passion in the end user nushell ecosystem.
 
 Examples of this include projects by
 
-* @kubouch and @amtoine on the [nupm package manager](https://github.com/nushell/nupm)
+* @amtoine and @kubouch on the [nupm package manager](https://github.com/nushell/nupm)
 * @amtoine and @melmass on the [nu-git-manager](https://github.com/amtoine/nu-git-manager)
 
 Initially I have been kicking the tires on both of these projects mainly
