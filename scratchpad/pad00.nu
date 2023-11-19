@@ -40,6 +40,10 @@ let record3 = {data: {values: [1, 2, 3], nested: [4, 5, 6]}}
 
 let record4 = {data: {values: [1, 2, 3], nested: {values: [4, 5, 6]}}}
 
+def test00 [] {
+    $jq1 | filter-map {|value| if ($value | describe) == "int" { $value * 2 } else { $value }}
+}
+
 def test01 [] {
     $record4 | filter-map {|value| if ($value | describe) == "int" { $value * 2 } else { $value }}
 }
