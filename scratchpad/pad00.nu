@@ -47,3 +47,7 @@ def test00 [] {
 def test01 [] {
     $record4 | filter-map {|value| if ($value | describe) == "int" { $value * 2 } else { $value }}
 }
+
+def test02 [] {
+    $record4 | filter {|value| if ($value | describe) == "int" { $value * 2 } else { $value }}
+}
