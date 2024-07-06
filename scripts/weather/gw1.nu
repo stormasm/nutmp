@@ -110,34 +110,6 @@ export def gw [
     let with_loc_no_unit = ($is_loc_empty == false and $is_units_empty == true)
     let with_loc_with_unit = ($is_loc_empty == false and $is_units_empty == false)
 
-    # This is a cautionary tale, the commented out code below is returning
-    # and autoview is viewing the data, so no structured data is being returned.
-    # The ramification to this is you can't do get_weather | select Temperature Emoji
-    # like you should be able to. The following uncommented section below fixes it.
-
-    # Hopefully we'll be able to fix this somehow because it's easy to fall into
-    # this hole without knowing.
-
-    # if $no_loc_no_unit {
-    #     echo "no_loc_no_unit"
-    #     (get_weather_by_ip 0 "f")
-    # } { }
-
-    # if $no_loc_with_unit {
-    #     echo "no_loc_with_unit"
-    #     (get_weather_by_ip 0 $units)
-    # } { }
-
-    # if $with_loc_no_unit {
-    #     echo "with_loc_no_unit"
-    #     (get_weather_by_ip $locIdx "f")
-    # } { }
-
-    # if $with_loc_with_unit {
-    #     echo "with_loc_with_unit"
-    #     (get_weather_by_ip $locIdx $units)
-    # } { }
-
     if $no_loc_no_unit {
         (get_weather_by_ip 0 $token)
     } else if $no_loc_with_unit {
@@ -228,21 +200,3 @@ def get_emoji_by_id [id] {
 
     ($emoji_dict | get $id)
 }
-
-# To run this call
-# > get_weather
-# it will default to location 0 and Fahrenheit degrees
-# > get_weather -l 1
-# This changes to location 1. Locations are listed in the locations custom command above
-# > get_weather -l 2 -u c
-# This uses location 2 and Celsius degrees. f = Fahrenheit, c = Celsius
-
-# Since I live in the USA I have not tested outside the country.
-# We'll take PRs for things that are broke or augmentations.
-
-# HOW TO USE
-# put this in your config.nu file
-# use /path/to/get-weather.nu get_weather
-#
-# then from the nushell command prompt type
-# get_weather
