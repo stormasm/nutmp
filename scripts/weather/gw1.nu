@@ -45,6 +45,7 @@ def get_location_by_ip [locIdx: int, token: string] {
     let URL_QUERY_LOCATION = "https://api.openweathermap.org/geo/1.0/direct"
     let location = (get_my_location $locIdx)
     let url = $"($URL_QUERY_LOCATION)?q=($location)&limit=5&appid=($token)"
+    print $url
     http get $url
 }
 
@@ -65,6 +66,7 @@ def get_weather_by_ip [locIdx: int, token: string] {
 
     let units = "imperial"
     let url = $"($URL_WEATHER)?lat=($coords.lat.0)&lon=($coords.lon.0)&units=($units)&appid=($token)"
+    print $url
     let weather = (http get $url)
     {
         'Weather Location': $"($weather.name), ($weather.sys.country)"
@@ -180,3 +182,5 @@ def get_emoji_by_id [id] {
 
     ($emoji_dict | get $id)
 }
+
+get_weather_by_ip 0 "85a4e3c55b73909f42c6a23ec35b7147"
