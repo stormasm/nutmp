@@ -53,70 +53,28 @@ def show-error [msg label err] {
     error make {msg: $msg, label: {text: $label, span: $span } }
 }
 
-def get_weather_by_ip [locIdx: int, units: string, token: string] {
+def get_weather_by_ip [locIdx: int, token: string] {
     # units
     # f = imperial aka Fahrenheit
     # c = metric aka Celsius
     let URL_WEATHER = "https://api.openweathermap.org/data/2.5/weather"
-    let URL_FORECAST = "http://api.openweathermap.org/data/2.5/forecast/daily"
     let coords = (get_location_by_ip $locIdx $token)
     if ($coords | length) > 1 {
         show-error "Error getting location" "There were more than one locations found" $coords
     }
 
-    if $units == "f" {
-        let units = "imperial"
-        let url = $"($URL_WEATHER)?lat=($coords.lat.0)&lon=($coords.lon.0)&units=($units)&appid=($token)"
-        let url_forecast = $"($URL_FORECAST)?lat=($coords.lat.0)&lon=($coords.lon.0)&units=($units)&appid=($token)"
-        let weather = (http get $url)
-        {
-            'Weather Location': $"($weather.name), ($weather.sys.country)"
-            Longitude: $weather.coord.lon
-            Latitude: $weather.coord.lat
-            Temperature: $"($weather.main.temp | into string -d 1) °F"
-            'Feels Like': $"($weather.main.feels_like | into string -d 1) °F"
-            Humidity: $weather.main.humidity
-            Pressure: $weather.main.pressure
-            Emoji: (get_icon_from_table $weather.weather.main.0)
-        }
-    } else {
-        let units = "metric"
-        let url = $"($URL_WEATHER)?lat=($coords.lat.0)&lon=($coords.lon.0)&units=($units)&appid=($token)"
-        let url_forecast = $"($URL_FORECAST)?lat=($coords.lat.0)&lon=($coords.lon.0)&units=($units)&appid=($token)"
-        let weather = (http get $url)
-        let forecast_data = (http get $url_forecast)
-        let forecast = ($forecast_data.list | each {|day|
-                    {
-                        id: ($day.weather.0.id)
-                        dt: ($day.dt * 1_000_000_000 | into string | into datetime -z local | format date '%a, %b %e') #'%Y-%m-%d')
-                        high: ($day.temp.max)
-                        low: ($day.temp.min)
-                    }
-                })
-        let day1 = $"($forecast | get 0.dt) (get_emoji_by_id ($forecast | get 0.id | into string)) high: ($forecast | get 0.high | into string -d 1) low: ($forecast | get 0.low | into string -d 1)"
-        let day2 = $"($forecast | get 1.dt) (get_emoji_by_id ($forecast | get 1.id | into string)) high: ($forecast | get 1.high | into string -d 1) low: ($forecast | get 1.low | into string -d 1)"
-        let day3 = $"($forecast | get 2.dt) (get_emoji_by_id ($forecast | get 2.id | into string)) high: ($forecast | get 2.high | into string -d 1) low: ($forecast | get 2.low | into string -d 1)"
-        let day4 = $"($forecast | get 3.dt) (get_emoji_by_id ($forecast | get 3.id | into string)) high: ($forecast | get 3.high | into string -d 1) low: ($forecast | get 3.low | into string -d 1)"
-        let day5 = $"($forecast | get 4.dt) (get_emoji_by_id ($forecast | get 4.id | into string)) high: ($forecast | get 4.high | into string -d 1) low: ($forecast | get 4.low | into string -d 1)"
-        let day6 = $"($forecast | get 5.dt) (get_emoji_by_id ($forecast | get 5.id | into string)) high: ($forecast | get 5.high | into string -d 1) low: ($forecast | get 5.low | into string -d 1)"
-        let day7 = $"($forecast | get 6.dt) (get_emoji_by_id ($forecast | get 6.id | into string)) high: ($forecast | get 6.high | into string -d 1) low: ($forecast | get 6.low | into string -d 1)"
-        {
-            'Weather Location': $"($weather.name), ($weather.sys.country)"
-            Longitude: $weather.coord.lon
-            Latitude: $weather.coord.lat
-            Temperature: $"($weather.main.temp | into string -d 1) °C"
-            'Feels Like': $"($weather.main.feels_like | into string -d 1) °C"
-            Humidity: $weather.main.humidity
-            Pressure: $weather.main.pressure
-            Emoji: (get_icon_from_table $weather.weather.main.0)
-            'Forecast Day 1': $day1
-            'Forecast Day 2': $day2
-            'Forecast Day 3': $day3
-            'Forecast Day 4': $day4
-            'Forecast Day 5': $day5
-            'Forecast Day 6': $day6
-            'Forecast Day 7': $day7
-        }
+    let units = "imperial"
+    let url = $"($URL_WEATHER)?lat=($coords.lat.0)&lon=($coords.lon.0)&units=($units)&appid=($token)"
+    let weather = (http get $url)
+    {
+        'Weather Location': $"($weather.name), ($weather.sys.country)"
+        Longitude: $weather.coord.lon
+        Latitude: $weather.coord.lat
+        Temperature: $"($weather.main.temp | into string -d 1) °F"
+        'Feels Like': $"($weather.main.feels_like | into string -d 1) °F"
+        Humidity: $weather.main.humidity
+        Pressure: $weather.main.pressure
+        Emoji: (get_icon_from_table $weather.weather.main.0)
     }
 }
 
@@ -181,13 +139,13 @@ export def gw [
     # } { }
 
     if $no_loc_no_unit {
-        (get_weather_by_ip 0 "f" $token)
+        (get_weather_by_ip 0 $token)
     } else if $no_loc_with_unit {
-        (get_weather_by_ip 0 $units $token)
+        (get_weather_by_ip 0 $token)
     } else if $with_loc_no_unit {
-        (get_weather_by_ip $locIdx "f" $token)
+        (get_weather_by_ip $locIdx $token)
     } else if $with_loc_with_unit {
-        (get_weather_by_ip $locIdx $units $token)
+        (get_weather_by_ip $locIdx $token)
     }
 }
 
