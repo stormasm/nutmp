@@ -96,29 +96,9 @@ def get_icon_from_table [w] {
 }
 
 # Get the local weather by ip address
-export def gw [
-    --locIdx(-l): int # The location id 0-2
-    --units(-u): string # The units "f" or "c"
-    ] {
+export def gw [] {
     let token = "85a4e3c55b73909f42c6a23ec35b7147"
-
-    let is_loc_empty = ($locIdx == null)
-    let is_units_empty = ($units == null)
-
-    let no_loc_no_unit = ($is_loc_empty == true and $is_units_empty == true)
-    let no_loc_with_unit = ($is_loc_empty == true and $is_units_empty == false)
-    let with_loc_no_unit = ($is_loc_empty == false and $is_units_empty == true)
-    let with_loc_with_unit = ($is_loc_empty == false and $is_units_empty == false)
-
-    if $no_loc_no_unit {
-        (get_weather_by_ip 0 $token)
-    } else if $no_loc_with_unit {
-        (get_weather_by_ip 0 $token)
-    } else if $with_loc_no_unit {
-        (get_weather_by_ip $locIdx $token)
-    } else if $with_loc_with_unit {
-        (get_weather_by_ip $locIdx $token)
-    }
+    get_weather_by_ip 0 $token
 }
 
 def state_abbrev_lookup [state_name: string] {
