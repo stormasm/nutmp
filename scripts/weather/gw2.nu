@@ -68,8 +68,12 @@ def get_weather_by_ip [locIdx: int, units: string, token: string] {
         let units = "imperial"
         let url = $"($URL_WEATHER)?lat=($coords.lat.0)&lon=($coords.lon.0)&units=($units)&appid=($token)"
         let url_forecast = $"($URL_FORECAST)?lat=($coords.lat.0)&lon=($coords.lon.0)&units=($units)&appid=($token)"
+        print $url_forecast
         let weather = (http get $url)
         let forecast_data = (http get $url_forecast)
+        print $forecast_data
+        print $forecast_data.city
+        print $forecast_data.list
         let forecast = ($forecast_data.list | each {|day|
                     {
                         id: ($day.weather.0.id)
