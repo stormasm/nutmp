@@ -74,6 +74,20 @@ def get_weather_by_ip [locIdx: int, units: string, token: string] {
         print $forecast_data
         print $forecast_data.city
         print $forecast_data.list
+        print $forecast_data.list.0.temp
+        print $forecast_data.list.0.temp.day
+        print $forecast_data.list.0.temp.min
+        print $forecast_data.list.0.temp.max
+        print $forecast_data.list.0.temp.night
+        print $forecast_data.list.0.temp.min
+        print $forecast_data.list.0.temp.morn
+        print $forecast_data.list.1.temp
+        print $forecast_data.list.1.temp.day
+        print $forecast_data.list.1.temp.min
+        print $forecast_data.list.1.temp.max
+        print $forecast_data.list.1.temp.night
+        print $forecast_data.list.1.temp.min
+        print $forecast_data.list.1.temp.morn
         let forecast = ($forecast_data.list | each {|day|
                     {
                         id: ($day.weather.0.id)
