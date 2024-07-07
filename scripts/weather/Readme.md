@@ -11,3 +11,7 @@ This is the first script in the series. It is a simple script that uses the `htt
 
 This is the second script in the series. It is used to get the forecast data
 which goes out seven days.
+
+#### get-weather.nu
+
+This is the original script from the nushell *nu_scripts* [repo](https://github.com/nushell/nu_scripts/tree/main/modules/weather).
