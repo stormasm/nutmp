@@ -165,6 +165,8 @@ def state_abbrev_lookup [state_name: string] {
 # $emoji_dict | get "803"
 # get_emoji_by_id "613"
 # $emoji_dict | describe is a record with 50 fields
+# $emoji_dict | values | length
+# $emoji_dict | columns | length
 def get_emoji_by_id [id] {
         let emoji_dict = ({
         "200": "⚡", "201": "⚡", "202": "⚡", "210": "⚡", "211": "⚡", "212": "⚡", "221": "⚡", "230": "⚡",
